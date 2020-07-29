@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="muhasebe.master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>YÖNETİCİ GİRİŞİ</title>
+      <!--// Stylesheets //-->
+    <link href="assets/css/style.css" rel="stylesheet" media="screen" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script language="javascript" type="text/javascript">
+        function Alert(e) {
+            alert(e);
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+         <!-- Wrapper Start -->
+    <div class="loginwrapper">
+        <div class="loginone">
+            <header>	
+                <img src="assets/images/adali_mail_logo.png"/>
+            <p>Sisteme giriş yapmak için yetkili bilgilerinizi girin</p>
+        </header>
+            <div class="username">
+                <asp:TextBox runat="server" ID="txt_user" class="form-control" placeholder="Kullanıcı adınızı girin" />
+                <i class="glyphicon glyphicon-user"></i>
+            </div>
+            <div class="password">
+                <asp:TextBox runat="server" ID="txt_pass" TextMode="Password" class="form-control"
+                    placeholder="Şifrenizi girin" />
+                <i class="glyphicon glyphicon-lock"></i>
+            </div>
+            <div class="custom-radio-checkbox">
+                <div style="float: left;">
+                    <asp:CheckBox TabIndex="1" Text="" runat="server" class="redcheckradios" ID="chk_remember" /></div>
+                <div>
+                    <label>
+                        Beni Hatırla</label></div>
+                <div style="clear: left;">
+                </div>
+            </div>
+            <script>
+                $(document).ready(function () {
+                    $('.redcheckradios').iCheck({
+                        checkboxClass: 'icheckbox_flat-red',
+                        radioClass: 'iradio_flat-red',
+                        increaseArea: '20%' // optional
+                    });
+                });
+            </script>
+   
+             <asp:Button ID="btn_login" Text="Giriş Yap" runat="server" CssClass="btn btn-primary style2"
+                OnClick="btn_login_Click" />
+
+            
+            <footer>
+        	<a href="#" class="forgot pull-left"></a>
+            <a href="#" class="register pull-right"></a>
+            <div class="clear"></div>
+        </footer>
+        </div>
+    </div>
+    <!-- Wrapper End -->
+    </form>
+</body>
+</html>

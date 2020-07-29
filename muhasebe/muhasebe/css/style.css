@@ -1,0 +1,229 @@
+﻿.logo { margin-top: 15px; float: left; }
+.menu 
+{
+    float: left;
+    margin-top: 96px;
+    margin-left: 20px;
+}
+
+.menu ul { list-style: none; }
+.menu ul li{float: left; margin-top: 6px; padding: 6px; margin-left: 30px;  }
+.menu ul li:first-child{ padding-left: 0;}
+.menu ul li a { padding-left: 28px; color:#2c3440; font-weight:bold;  }
+.menu ul li a:hover{ text-decoration: underline; }
+
+   
+.xmlFileZone 
+{
+    width: 980px; margin: auto;
+    padding: 5px 0px 5px 0px;
+    border-bottom: dotted 1px #e0e0df;
+    text-align: center;
+}
+
+.custom-file-input { width: 300px; border: solid 1px #e0e0df; background-color:#fff; margin: auto; }
+
+.btn
+{
+    width: 120px;
+    height: 32px;
+    background: #cd0638;
+    box-shadow: 0 3px 0 #9f0028;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.showDetails {
+    position: absolute;
+    border-radius: 12px;
+    right: 12px;
+    background-image: url(../img/edit.png);
+    height: 21px;
+    width: 32px;
+    background-color: white;
+}
+.excelDownload {
+    background-image: url(../img/excel.png);
+    height: 31px;
+    border: none;
+}
+.mutabakatDetails {
+    border-radius: 12px;
+    background-image: url(../img/edit.png);
+    height: 21px;
+    width: 32px;
+    background-color: white;
+}
+
+.btn:hover, .btn:focus
+{
+    color: #fff;   
+}
+#btn_login {
+    background: #cd0638;
+    box-shadow: 0 3px 0 #9f0028;
+}
+
+a {
+    color: #cd0638;
+}
+
+
+.zone {
+    width: 1140px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.zone-left {
+    width: 550px;
+    float: left;
+}
+
+.zone-right
+{
+    width: 520px;
+    float: left;
+    padding-left: 20px;
+}
+
+.clear 
+{
+    clear: left;
+}
+
+.list
+{
+    width: 430px;
+    display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 13px;
+	line-height: 1.428571429;
+	color: #000;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #e0e0df;
+	border-radius: 2px;
+	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.list:focus, 
+.custom-file-input:focus, .txtBox:focus {
+	border-color: #33363f;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(51, 54, 63, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(51, 54, 63, 0.6);
+}
+
+.formTxt
+{
+    float: left;
+    width: 110px;
+}
+.formItem 
+{
+    float: left;
+    width: 300px;
+    padding-bottom: 7px;
+}
+
+.btnWrapper
+{
+    padding-top: 20px;
+}
+
+#btnSendWrapper
+{
+    width: 120px; margin: auto;
+}
+
+#successWraper  
+{
+    width:120px; 
+    height:35px; 
+    margin:auto; 
+    background: url('../img/btn_mailok.png') no-repeat;
+    font-size:14px; font-weight:bold; color:#fff; 
+    padding: 8px 0px 0px 35px;
+    display: none;
+}
+
+#progressMail
+{
+    width:120px; 
+    height:35px; 
+    margin:auto; 
+    background: url('../img/ajax_loader_red.gif') no-repeat;
+    font-size:14px; font-weight:bold; color:#cd0638; 
+    padding: 4px 0px 0px 35px;
+    display: none;
+   
+}
+
+
+
+.edit 
+{
+    width: 450px; margin: auto;
+    padding: 45px 0px 0px 0px;
+    border-top: dotted 1px #e0e0df;
+}
+
+.WordSection1
+{
+		page:WordSection1;
+		font-size:10.0pt;
+		font-family:"Tahoma","serif";
+		border: solid 3px #aebcbc;
+		width: 564px;
+		margin: auto;
+		padding: 15px 15px 15px 15px;
+		background-color:#fff;
+		-webkit-border-radius: 5px;
+         -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+
+.wrapperResult
+{
+    width: 600px;
+    font-size:10.0pt;
+	font-family:"Tahoma","serif";
+	border: solid 3px #aebcbc;
+	margin: auto;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.adaliLogo
+{
+    float: left;
+    padding: 15px 15px 0px 15px;
+    width: 390px;
+}
+
+.tuvLogo
+{
+    float:left;
+    padding: 15px 15px 0px 15px;
+}
+
+.resultDetails
+{
+    padding: 0px 15px 15px 15px;
+}
+	
+.tblDetails 
+{ 
+	font-family:"Tahoma","serif";
+	border: solid 1px #aebcbc; 
+	font-size:10.0pt;
+}
